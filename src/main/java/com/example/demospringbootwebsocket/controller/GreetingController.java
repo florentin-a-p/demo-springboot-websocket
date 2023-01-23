@@ -1,7 +1,7 @@
 package com.example.demospringbootwebsocket.controller;
 
-import com.example.demospringbootwebsocket.entity.Greeting;
-import com.example.demospringbootwebsocket.entity.Message;
+import com.example.demospringbootwebsocket.dto.Greeting;
+import com.example.demospringbootwebsocket.dto.Message;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
